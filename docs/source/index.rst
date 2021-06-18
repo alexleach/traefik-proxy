@@ -22,7 +22,7 @@ Moreover it offers *HTTPS* support through a straight-forward `ACME (Let's Encry
 There are three versions for the proxy, depending on how traefik stores the routes:
 
 * *for* **smaller**, *single-node deployments*:
-   * TraefikTomlProxy
+   * TraefikFileProviderProxy
 * *for* **distributed** *setups*:
    * TraefikEtcdProxy
    * TraefikConsulProxy
@@ -41,7 +41,7 @@ Getting Started
 .. toctree::
    :maxdepth: 1
 
-   toml
+   fileprovider
    etcd
    consul
 
