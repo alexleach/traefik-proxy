@@ -91,6 +91,7 @@ async def external_toml_proxy(launch_traefik_file):
         dynamic_config_file=dynamic_config_file,
     )
 
+    await proxy._wait_for_static_config()
     yield proxy
     os.remove(dynamic_config_file)
 
@@ -109,6 +110,7 @@ async def external_yaml_proxy(launch_traefik_file):
         dynamic_config_file=dynamic_config_file,
     )
 
+    await proxy._wait_for_static_config()
     yield proxy
     os.remove(dynamic_config_file)
 
