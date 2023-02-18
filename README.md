@@ -8,6 +8,7 @@
 [![GitHub](https://img.shields.io/badge/issue_tracking-github-blue?logo=github)](https://github.com/jupyterhub/traefik-proxy/issues)
 [![Discourse](https://img.shields.io/badge/help_forum-discourse-blue?logo=discourse)](https://discourse.jupyter.org/c/jupyterhub)
 [![Gitter](https://img.shields.io/badge/social_chat-gitter-blue?logo=gitter)](https://gitter.im/jupyterhub/jupyterhub)
+[![Run tests](https://github.com/jupyterhub/traefik-proxy/actions/workflows/test.yml/badge.svg)](https://github.com/jupyterhub/traefik-proxy/actions/workflows/test.yml)
 
 When JupyterHub starts a server for a user, it will _dynamically configure a
 proxy server_ so that accessing `jupyterhub.example.com/user/<user>` routes to
