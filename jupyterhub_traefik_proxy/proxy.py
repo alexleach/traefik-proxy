@@ -497,7 +497,6 @@ class TraefikProxy(Proxy):
 
         Ensures dynamic config is setup and static config is loaded
         """
-        await self._setup_traefik_dynamic_config()
         await self._wait_for_static_config()
         self._start_future = None
 
